@@ -1,6 +1,6 @@
 # Use Laravel Collections in Craft CMS Plugins
 
-Collections is a really powerful class that provides "a fluent, convenient wrapper for working with arrays of data". Don't just take our words for it, Adam Watham is working on a book called "[Refactoring to Collections](http://adamwathan.me/refactoring-to-collections/)" and he also has a [great screencast on using collectons](http://adamwathan.me/2015/01/01/refactoring-loops-and-conditionals/)..
+[Collections is a really powerful Laravel class](https://laravel.com/docs/master/collections) that provides "a fluent, convenient wrapper for working with arrays of data". Don't just take our words for it, Adam Watham is working on a book called "[Refactoring to Collections](http://adamwathan.me/refactoring-to-collections/)" and he also has a [great screencast on using collectons](http://adamwathan.me/2015/01/01/refactoring-loops-and-conditionals/)..
 
 There are often times when we are working with Craft CMS and wish we had Collections support, so we decied to build this plugin!
 
@@ -24,7 +24,7 @@ $array = [
 ];
 ```
 
-You can easily create the array to a Collection using the following code:
+You can easily make the array a Collection using the following code:
 
 ```
 $collection = craft()->collections->make($array);
@@ -40,7 +40,15 @@ For example you can get the count of items in the array/Collection by simply cal
 
  Wham-o! the count, in this case `4`, will be easily available!
 
- For the complete list of options when using Collections, read the [Laravel documentation](https://laravel.com/docs/master/collections#available-methods).
+ What if you need to ensure that an array contains and item?
+
+ ```
+ if ($collection->contains('six')) {
+    // returns true, then do something about it!
+ }
+ ```
+
+For the complete list of options when using Collections, see the list of [available methods](https://laravel.com/docs/master/collections#available-methods).
 
 ## Credits
 

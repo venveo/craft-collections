@@ -1,5 +1,11 @@
 [
     {
-        
+        "version": "0.1.0",
+        "downloadUrl": "https://github.com/venveo/craft-collections/archive/v0.1.0.zip",
+        "date": "2016-26-04 10:00:00",
+        "notes": [
+            "# Initial Release",
+            "[Added] Use Laravel Collections in Craft Plugins"
+        ]
     }
 ]
