@@ -1,8 +1,8 @@
 # Use Laravel Collections in Craft CMS Plugins
 
-[Collections is a really powerful Laravel class](https://laravel.com/docs/master/collections) that provides "a fluent, convenient wrapper for working with arrays of data". Don't just take our words for it, Adam Watham is working on a book called "[Refactoring to Collections](http://adamwathan.me/refactoring-to-collections/)" and he also has a [great screencast on using collectons](http://adamwathan.me/2015/01/01/refactoring-loops-and-conditionals/)..
+[Collections is a really powerful Laravel class](https://laravel.com/docs/master/collections) that provides "a fluent, convenient wrapper for working with arrays of data". Don't just take our words for it, Adam Watham is working on a book called "[Refactoring to Collections](http://adamwathan.me/refactoring-to-collections/)" and he also has a [great screencast on using collections](http://adamwathan.me/2015/01/01/refactoring-loops-and-conditionals/)..
 
-There are often times when we are working with Craft CMS and wish we had Collections support, so we decied to build this plugin!
+There are often times when we are working with Craft CMS and wish we had Collections support, so we decided to build this plugin!
 
 ## Requirements
 
@@ -10,8 +10,8 @@ TODO
 
 ## Installation and Setup
 
-1. Download [plugin release from this page](https://)
-2. Rename the directory to `collections` and move into your `plugins` directory
+1. Download [plugin release from this page](https://github.com/venveo/craft-collections/releases)
+2. Rename the download directory to `collections` and move into your `plugins` directory
 3. Install Collections from the control panel settings
 
 ## Example Usage
@@ -53,6 +53,7 @@ For the complete list of options when using Collections, see the list of [availa
 ## Credits
 
 * [Jason McCallister](https://github.com/themccallister)
+* [Carlo Latiano](https://github.com/carlolaitano)
 
 ## About Venveo
 
