@@ -6,7 +6,7 @@ There are often times when we are working with Craft CMS and wish we had Collect
 
 ## Requirements
 
-TODO
+- [Craft 2.5+](https://craftcms.com/)
 
 ## Installation and Setup
 
