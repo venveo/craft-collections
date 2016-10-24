@@ -25,7 +25,7 @@ class CollectionsTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            'collecy' => new \Twig_Filter_Method(
+            'collect' => new \Twig_Filter_Method(
                 $this, 'collect'
             ),
         ];
